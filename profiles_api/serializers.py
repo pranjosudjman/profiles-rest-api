@@ -24,5 +24,4 @@ class UserProfileSerializer(serializers.ModelSerializer):
             name=validated_data['name'],
             password=validated_data['password']
         )
-
         return user
